@@ -6,7 +6,7 @@ import MovieSection from "../components/MovieSection";
 export default function Home() {
     const apiKey = "41f174a7";
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "black" }}>
+    <div style={{ minHeight: "100vh", backgroundColor: "transparent" }}>
       <MinimalNavbar
   brand={{ name: "MovieSite", href: "/" }}
   links={[
